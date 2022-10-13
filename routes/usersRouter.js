@@ -24,7 +24,7 @@ router.get('/', (req, res) => {
     } catch (error) {
         console.log( `error ${error.message}`) // log the error
         res.status(404).send('No se entoncroel recurso!');
-    
+    }
 });
 
 router.post('/', (req, res) => {
